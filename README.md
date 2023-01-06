@@ -1,7 +1,6 @@
-# KickBase
-##Fall 2022
-###CSIS2300 Database1 Project 
-###Soccer Match Management System - KickBase
+# Soccer Match Management System - KickBase
+## Fall 2022
+### CSIS2300 Database1 Project 
 ```
 Step 1 : Planning and System Analysis
 Step 2 : Draw ER/EER diagram
