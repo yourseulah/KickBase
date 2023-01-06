@@ -1,0 +1,70 @@
+/* 2022/11/27 
+    Seulah Lee 
+    CSIS 2300 002 Database 1 
+    Prof. Saeed Mirjalili
+    Step 6 
+*/
+
+* {
+  font-family: 'Kanit', sans-serif;
+  color: darkslategray;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  margin: 10px 0px;
+  margin-left: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+input[type=submit] {
+  border-radius: 10px;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {
+  border-radius: 10px;
+  display:inline-block;
+  padding: 15px 24px;
+  background: plum;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+  a:hover {
+      font-size: larger;
+  }
+
+
+table, td, th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+table {
+  margin: 15px;
+}
+
+legend {
+  font-weight: 600;
+} 

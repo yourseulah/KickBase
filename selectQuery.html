@@ -1,0 +1,58 @@
+<!--2022/11/28
+    Seulah Lee 
+    CSIS 2300 002 Database 1 
+    Prof. Saeed Mirjalili
+    Step 6 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display All Players</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <form method="post" action="php/selectAllQuery.php">
+    <fieldset>
+      <legend>Display All Students</legend>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+
+  <br />
+  <br />
+
+  <form method="post" action="php/selectLikeQuery.php">
+    <fieldset>
+      <legend>Display Students whose first name starts with</legend>
+      <label>Player Last Name Starts with</label>
+      <input type="text" name="ln" /> <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+
+  <br />
+  <br />
+
+  <form method="post" action="php/selectWhereQuery.php">
+    <fieldset>
+      <legend>Display Player From a Specific Team</legend>
+      <label>Team Name</label> 
+      <input type="text" name="tn" /> <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+
+  <br />
+  <a href='index.html'>Back to the Homepage</a>
+
+</body>
+</html>
